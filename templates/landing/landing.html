@@ -1,0 +1,450 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive  Flower Website Design Tutorials</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="{% static '/css/landing.css'%}"> 
+</head>
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Blossom<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="login.html" class="fas fa-user"></a>
+          
+            
+        </div>
+    </header>
+     <!--Header section ends-->
+
+
+     <!--Home section starts-->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh Flowers</h3>
+            <span>Natural & beautiful flowers</span>
+            <p> From the elegant rose to the cheerful sunflower, each bloom has its own story to tell. Embrace the joy and tranquility that flowers bring, and let their natural beauty transform your surroundings into a haven of peace and delight.</p>
+            <a href="#products" class="btn"> Shop Now</a>
+        </div>
+     </section>
+
+
+    <!--Home section ends-->
+
+
+  <!--About section starts-->
+<section class="about" id="about">
+    <h1 class="heading"><span>about</span> us</h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="{% static '/images/about-vid.mp4' %} " loop autoplay muted></video>
+            <h3>best flowers sellers</h3>
+        </div>
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>where we believe that flowers have the power to bring joy, comfort, and beauty into every moment. Our journey began with a simple passion for nature's most vibrant creations, and over the years, we've grown into a trusted source for fresh, high-quality flowers and personalized floral arrangements.</p>
+            <p>Our commitment to quality, creativity, and customer satisfaction is at the heart of everything we do..</p>
+            <a href="#" class="btn">Learn More</a>
+
+        </div>
+    </div>
+</section>
+
+  <!--About section ends-->
+
+<!--icons section starts-->
+
+<section class="icons-container">
+    <div class="icons">
+        <img src="{% static '/images/icon-1.png' %}" alt="">
+        <div class="info">
+            <h3>Free delivery</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="{% static '/images/icon-2.png' %}" alt="">
+        <div class="info">
+            <h3>10 days returns</h3>
+            <span>Moneyback guarantee</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="{% static '/images/icon-3.png' %}" alt="">
+        <div class="info">
+            <h3>offer & gits</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="{% static '/images/icon-4.png' %}" alt="">
+        <div class="info">
+            <h3>secure paymens</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+</section>
+
+<!--icons section ends-->
+
+<!--Products section stars-->
+
+<section class="products" id="products">
+    <h1 class="heading">latest <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/img-1.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Pink Tulip Pot</h3>
+                <div class="price">1350 Rs</div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/img-2.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Colorful Tulip Bouquet with Smileys</h3>
+                <div class="price">1320 Rs</div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/img-3.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Red Tulip Vase</h3>
+                <div class="price">1250 Rs</div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/img-4.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Orange & Yellow Tulip Vase</h3>
+                <div class="price">1100 Rs </div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/img-5.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>White Tulip</h3>
+                <div class="price">800 Rs </div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/rose.png' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Rose</h3>
+                <div class="price">900 Rs </div>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="{% static '/images/img-7.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Mixed Tulip</h3>
+                <div class="price">1000 Rs</div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/img-8.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Red Tulip Bucket</h3>
+                <div class="price"> 1400 Rs</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="{% static '/images/img-9.jpg' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Bright Red Tulip</h3>
+                <div class="price">950 Rs</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="{% static '/images/img-10.png' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Pink Rose</h3>
+                <div class="price">1200 Rs</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="{% static '/images/img-11.png' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">1350 Rs</div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="{% static '/images/img-12.png' %}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Lavender</h3>
+                <div class="price">700 Rs</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Products section ends-->
+
+
+<!--review section starts-->
+<section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="stars">
+                
+            </div>
+            <p>I recently ordered a bouquet for my friend's birthday from Blossom, and it was absolutely stunning! The flowers were fresh, vibrant, and beautifully arranged. My friend loved it, and I couldn't be happier with the service. I'll definitely be coming back for more!"
+
+            </p>
+            <div class="user">
+                
+                <div class="user-info">
+                    <h3>Sharma</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                
+            </div>
+            <p>My experience with Blossom was fantastic! I needed a last-minute floral arrangement for an anniversary, and they went above and beyond to make sure it was perfect. The staff was friendly and helpful, and the flowers were simply breathtaking. Thank you for making our special day even more memorable!"</p>
+            <div class="user">
+                
+                <div class="user-info">
+                    <h3>Mathew</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                
+            </div>
+            <p>"I've been ordering flowers from Blossom for all my family events, and they never disappoint. The quality and care put into each bouquet is unmatched. Whether it's for a wedding, a birthday, or just to brighten my home, their flowers always bring a smile to my face. Highly recommended!"
+
+            </p>
+            <div class="user">
+                
+                <div class="user-info">
+                    <h3>Raj</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                
+            </div>
+            <p>I ordered flowers from Blossom for my parents' anniversary, and they were absolutely gorgeous! The team listened to my ideas and created a custom arrangement that was even better than I imagined. The delivery was prompt, and the flowers lasted a long time. I highly recommend them for any occasion!"</p>
+            <div class="user">
+                
+                <div class="user-info">
+                    <h3>Sahana</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    </div>
+</section>
+
+<!--review section ends-->
+
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+    <div class="row">
+        <form action="">
+            <input type="text" class="box" placeholder="Name">
+            <input type="email" class="box" placeholder="Email">
+            <input type="number" class="box" placeholder="Number">
+            <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send massage" class="btn">
+        </form>
+        <div class="image">
+            <img src="{% static '/images/contact-img.svg' %}" alt="">
+        </div>
+    </div>
+</section>
+<!--contact section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favorites</a>
+        </div>
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">Bangalore</a>
+            <a href="#">Banashankri</a>
+            <a href="#">Basvangudi</a>
+           
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+91 6362640568</a>
+            <a href="#">Blossom@gmail.com</a>
+            <a href="#">Bangalore, India - 500203</a>
+          <img src="{% static '/images/payment.png' %}" alt="">
+       
+        </div>
+    </div>
+    <div class="credit">
+        &copy; Created by <span> Ananya Bhat</span> All Right Reserved.
+    </div>
+</section>
+
+<!--footer section ends-->
+
+
+
+
+
+
+</body>
+</html>
